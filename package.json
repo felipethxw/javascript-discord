@@ -1,0 +1,27 @@
+{
+  "name": "star-discord-bot",
+  "version": "1.0.0",
+  "description": "Star é um bot para Discord feito utilizando Discord.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "onlyxzzdev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipethxw/star-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/felipethxw/star-discord/issues"
+  },
+  "homepage": "https://github.com/felipethxw/star-discord#readme",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "quick.db": "^9.0.8"
+  }
+}
