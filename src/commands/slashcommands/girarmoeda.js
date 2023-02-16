@@ -1,4 +1,4 @@
-export default class PingCommand {
+export default class CoinFlipCommand {
     constructor() {
         this.name = 'coinflip'
         this.name_localizations = {
