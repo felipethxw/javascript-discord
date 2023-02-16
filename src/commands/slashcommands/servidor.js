@@ -1,6 +1,6 @@
 import { ApplicationCommandOptionType, EmbedBuilder } from 'discord.js';
 
-export default class PingCommand {
+export default class ServerCommand {
     constructor() {
         this.name = 'servidor'
         this.name_localizations = {
