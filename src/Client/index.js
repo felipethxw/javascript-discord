@@ -10,7 +10,7 @@ const client = new Client({
     partials: [Partials.GuildMember, Partials.Channel]
 });
 
-console.log('[ 🤖 - DISCORD ] Tentando conexão...')
+console.log('[ 🤖 - DISCORD ] Tentando conexão...');
 
 client.login(process.env.token)
     .then(() => {
